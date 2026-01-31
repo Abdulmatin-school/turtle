@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sea Turtles</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sea Turtles</h1>
+        <p>Slow and steady, and they're super cool!</p>
+    </header>
+  <section id='buttons'>
+        <button onclick="function showCard(id){  
+  var fact = document.getElementById(id);
+  if (fact.style.display !== 'block') {
+  fact.style.display = 'block';
+  fact = document.getElementById('click');
+  fact.style.display = 'none';
+  } else {
+  fact.style.display = 'none';
+  fact = document.getElementById('click');
+  fact.style.display = 'block';
+  }
+  for (let i=1;i<=4;i++) {
+    if ( 'card' + i !== id ) {
+      fact = document.getElementById('card'+i)
+      fact.style.display = 'none';
+    }
+  }
+}; showCard('card1')">Why Turtles Are Endangered</button>
+      <button onclick="function showCard(id){  
+  var fact = document.getElementById(id);
+  if (fact.style.display !== 'block') {
+  fact.style.display = 'block';
+  fact = document.getElementById('click');
+  fact.style.display = 'none';
+  } else {
+  fact.style.display = 'none';
+  fact = document.getElementById('click');
+  fact.style.display = 'block';
+  }
+  for (let i=1;i<=4;i++) {
+    if ( 'card' + i !== id ) {
+      fact = document.getElementById('card'+i)
+      fact.style.display = 'none';
+    }
+  }
+}; showCard('card2')">Major Threats to Turtles</button>
+      <button onclick="function showCard(id){  
+  var fact = document.getElementById(id);
+  if (fact.style.display !== 'block') {
+  fact.style.display = 'block';
+  fact = document.getElementById('click');
+  fact.style.display = 'none';
+  } else {
+  fact.style.display = 'none';
+  fact = document.getElementById('click');
+  fact.style.display = 'block';
+  }
+  for (let i=1;i<=4;i++) {
+    if ( 'card' + i !== id ) {
+      fact = document.getElementById('card'+i)
+      fact.style.display = 'none';
+    }
+  }
+}; showCard('card3')">How We Can Help Save Turtles</button>
+      <button onclick="function showCard(id){  
+  var fact = document.getElementById(id);
+  if (fact.style.display !== 'block') {
+  fact.style.display = 'block';
+  fact = document.getElementById('click');
+  fact.style.display = 'none';
+  } else {
+  fact.style.display = 'none';
+  fact = document.getElementById('click');
+  fact.style.display = 'block';
+  }
+  for (let i=1;i<=4;i++) {
+    if ( 'card' + i !== id ) {
+      fact = document.getElementById('card'+i)
+      fact.style.display = 'none';
+    }
+  }
+}; showCard('card4')">Why Saving Turtles Matters</button>
+  </section>
+  <div class="card" id='click'>
+    <p>Click on one of the buttons to get information about the topics!</p>
+  </div>
+    <section>
+        <div class="card" id='card1'>
+            <h2>Why Turtles Are Endangered</h2>
+            <p>
+                Many turtle species are endangered due to human activities. Pollution, plastic waste, habitat loss,
+                and climate change have made it harder for turtles to survive. Fishing nets and plastic bags are
+                especially dangerous because turtles can mistake them for food.
+            </p>
+        </div>
+ 
+        <div class="card" id='card2'>
+            <h2>Major Threats to Turtles</h2>
+            <ul>
+                <li><strong>Plastic pollution</strong> – turtles may eat plastic or get trapped in it</li>
+                <li><strong>Habitat destruction</strong> – beaches and wetlands are disappearing</li>
+                <li><strong>Climate change</strong> – warmer sand affects turtle hatchlings</li>
+                <li><strong>Fishing practices</strong> – turtles can be caught accidentally in nets</li>
+            </ul>
+        </div>
+
+        <div class="card" id='card3'>
+            <h2>How We Can Help Save Turtles</h2>
+            <p>
+                Humans play a big role in protecting turtles. Small actions can make a big difference when many
+                people work together.
+            </p>
+            <ul>
+                <li>Reduce plastic use and recycle whenever possible</li>
+                <li>Never leave trash on beaches or near water</li>
+                <li>Support organizations that protect wildlife</li>
+                <li>Respect nesting areas and wildlife rules</li>
+            </ul>
+        </div>
+
+        <div class="card" id='card4'>
+            <h2>Why Saving Turtles Matters </h2>
+            <p>
+                Turtles help keep ecosystems healthy. Protecting turtles also protects oceans, rivers, and many
+                other animals that share their environment.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; By Abdulmatin!!</p>
+    </footer>
+</body>
+
+</html>
