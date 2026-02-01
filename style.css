@@ -12,7 +12,7 @@
     }
     section {
       padding: 1.5rem;
-	  width: 1046px;
+      max-width: 1100px;
       margin: auto;
     }
     h2 {
@@ -20,6 +20,7 @@
     }
     .card {
       display: none;
+	  max-width: 900px;
       background: white;
       border-radius: 12px;
       padding: 1rem;
@@ -38,6 +39,7 @@
 	}
 	#buttons {
       display: flex;
+	  align-items: center;
       border-radius: 0px 0px 6px 6px;
       border-color: #eaf6f2;
       background-color:#2e8b57;
